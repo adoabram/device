@@ -18,7 +18,7 @@
 	--maincolor:#f7e296;
 	--footercolor:#464646;
 	--mainfont:'Open Sans', sans-serif;
-	--mainfontweight:light;
+	--mainfontweight:400;
 	--secondfont:'GilroyExtraBold', sans-serif;
 	--thirdfont:'GilroyLight', sans-serif;
 }
@@ -27,8 +27,7 @@ body{
 	padding:0;
 	font-family:'Open Sans', sans-serif;
 	font-family:var(--mainfont, 'Open Sans', sans-serif);
-	font-weight:light;
-	font-weight:var(mainfontweight, light);
+	font-weight: 400;
 }
 a{
 	text-decoration:none;
@@ -119,7 +118,7 @@ a.logo{
 	border:none;
 	background-color:#f7e296;
 	background-color:var(--maincolor,#f7e296);
-	box-sizing:borde-box;
+	box-sizing:border-box;
 }
 #search:focus, #search:hover{
 	outline:none;
@@ -942,7 +941,7 @@ _:-ms-fullscreen, :root .feature-item-block{
 	padding-top:45px;
 	width:300px;
 	min-height:275px;
-	box-sizing:borde-box;
+	box-sizing:border-box;
 	border-right:7px solid black;
 }
 _:-ms-fullscreen, :root .delivery-list { 
